@@ -1,24 +1,38 @@
-# README
+# Simple Ruby on Rails TODO App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic Ruby on Rails application demonstrating TODO app operations.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+1. Clone the repository:
 
-* System dependencies
+2. Navigate to the project directory:
 
-* Configuration
+3. Install dependencies:
 
-* Database creation
+    ```bash
+    bundle install
+    ```
 
-* Database initialization
+4. Set up the database:
 
-* How to run the test suite
+    ```bash
+    rails db:migrate
+    ```
 
-* Services (job queues, cache servers, search engines, etc.)
+5. Start the Rails server:
 
-* Deployment instructions
+    ```bash
+    rails server
+    ```
 
-* ...
+6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see the app.
+
+## Usage
+
+This To-Do list app allows you to manage your tasks with the following operations:
+
+- **Create:** Add new tasks to your to-do list.
+- **Read:**  View the list of tasks on the homepage.
+- **Update:** Edit the details or status of existing tasks.
+- **Delete:** Remove tasks from your to-do list
