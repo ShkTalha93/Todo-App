@@ -1,6 +1,6 @@
-# Simple Ruby on Rails TODO App
+# Simple Ruby on Rails Todo App
 
-This is a basic Ruby on Rails application demonstrating TODO app operations.
+This is a basic Ruby on Rails application demonstrating Todo App operations.
 
 ## Getting Started
 
